@@ -1,0 +1,5 @@
+par(mfrow=c(2,2))
+boxplot(iris$Sepal.Length ~ iris$Species, main="各種鳶尾花的花萼長度", col="green")
+boxplot(iris$Sepal.Width ~ iris$Species, main="各種鳶尾花的花萼寬度", col="green")
+boxplot(iris$Petal.Length ~ iris$Species, main="各種鳶尾花的花瓣長度", col="pink")
+boxplot(iris$Petal.Width ~ iris$Species, main="各種鳶尾花的花瓣寬度", col="pink")
