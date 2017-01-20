@@ -1,3 +1,4 @@
+library(ggplot2)
 LVofDiamond <- table(diamonds$clarity, diamonds$color)
 PRofDMLV <- prop.table(LVofDiamond, 2)
 par(xpd=TRUE)

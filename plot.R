@@ -1,1 +1,2 @@
+library(ggplot2)
 plot(diamonds$carat, diamonds$price, main="苝ホ┰计-基床瓜", xlab="┰计", ylab="基", pch=18, col="blue", las=1, cex.axis=0.75)
